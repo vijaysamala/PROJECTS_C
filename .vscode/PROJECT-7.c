@@ -17,4 +17,10 @@ void checkpalindrome(char str[])
         printf("%s is a palindrome.\n", str);
     else
         printf("%s is not a palindrome.\n", str);
-}
+}  
+int main() 
+{ char str[100];
+ printf("enter your input\n");
+scanf("%s" , str);
+checkpalindrome(str);}
+
